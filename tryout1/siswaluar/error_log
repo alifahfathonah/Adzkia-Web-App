@@ -1,0 +1,2 @@
+[02-Oct-2016 21:52:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswaluar/include/koneksi.php on line 6
+[02-Oct-2016 21:52:19 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/adzkiast/public_html/tryout/siswaluar/include/koneksi.php on line 6

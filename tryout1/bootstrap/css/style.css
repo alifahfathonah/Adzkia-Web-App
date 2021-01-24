@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ff0000 !important;
+	background-image: url(../../img/bg_top.png) !important;
+	background-repeat: repeat-x;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header {
+	background-color: #9F0700;
+}
+
+#hleft {
+	width: 320px;
+	padding: 10px;
+}
+
+#content {
+	background-color: #F5F5F5;
+	overflow: hidden;
+}
+
+.box-judul {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.box-isi {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.box-isi1 {
+	margin-left: 320px; 
+}
+
+.isi-cont {
+	text-align: center;
+	font-size: 20px;
+}
+
+#footer {
+	height: 50px;
+	background: #9F0700; 
+}

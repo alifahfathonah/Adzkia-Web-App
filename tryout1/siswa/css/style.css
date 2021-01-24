@@ -1,0 +1,262 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	/*background-color: #ff0000 !important;
+	background-image: url(../img/bg_top.png) !important;
+	background-repeat: repeat-x;*/
+	background: rgb(221,221,221);
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+#wrapper {
+}
+
+#header {
+	background-color: rgb(253,118,5);
+	overflow: hidden;
+}
+
+/******************
+ SLIDER
+ ******************/
+#slider {
+	background: #333;
+	height: 550px;
+}
+
+#slider img {
+	background-position: cover: 
+	background-repeat: repeat-x;
+	width: 1200px;
+}
+
+/******************
+ TOP MENU
+ ******************/
+.menu {
+	background: rgb(253,118,5);
+	height: 55px;
+}
+
+.menunav {
+	margin-top: 15px;
+}
+
+.current {
+	background: #177EE5;
+}
+
+.formhead {
+	margin-top: -35px;
+}
+
+.content {
+	background: #FFFFFF;
+	overflow: hidden;
+}
+
+.contop {
+	overflow: hidden;
+	margin: 10px;
+	border-radius: 3px;
+}
+
+
+/******************
+CONTENT
+******************/
+.box-content {
+	padding: 5px;
+	overflow: hidden;
+}
+
+.toptitle p {
+	font-size: 18px;
+	margin: 10px 0px 0px 15px;
+	text-transform: uppercase;
+}
+
+.readmore {
+	text-decoration: none;
+	float: right;
+	padding: 10px;
+	background: #FD7605;
+	margin: 10px;
+	color: #fff;
+	border-radius: 2px;
+}
+
+.readmore:hover {
+	text-decoration: none;
+}
+
+.box-midcontent {
+	overflow: hidden;
+}
+
+.box-contmid {
+	overflow: hidden;
+	margin: 5px 15px;
+}
+
+.img-box {
+	height: 200px;
+	width: 250px;
+	background: yellow;
+	float: left;
+	margin: 10px;
+}
+
+.img-box img {
+	height: 200px;
+	width: 250px;
+	float: left;
+}
+
+.judul-box h2 {
+	text-align: left;
+	margin: 0px;
+	padding: 5px 0px;
+}
+
+.isi-box p {
+	text-align: justify;
+	margin: 5px;
+}
+
+.author span {
+	color: grey;
+	margin-right: 20px;
+	text-transform: capitalize;
+}
+
+/******************
+END CONTENT
+******************/
+/******************
+SIDEBAR
+******************/
+.box-info {
+	padding: 3px 20px 20px 20px;
+	overflow: hidden;
+}
+
+ul.menuinfo li {
+	list-style: none;
+	font-size: 18px;
+	border-bottom: 1px solid #E3E3E3;
+	margin-bottom: 5px;
+}
+
+ul.menuinfo li a {
+	text-decoration: none;
+	color: #FD7605;
+	margin-left: 10px;
+	text-transform: capitalize;
+}
+
+ul.menuinfo li a:hover {
+	text-decoration: underline;
+}
+
+.icon {
+	color: #E3E3E3;
+}
+
+.box-login {
+	background: blue;
+	overflow: hidden;
+	padding: 10px;
+	width: 300px;
+	border-radius: 5px;
+	background: #FD7605;
+}
+
+.btn-login {
+	width: 280px;
+	text-transform: uppercase;
+}
+/******************
+END SIDEBAR
+******************/
+
+.table-row1 table {
+	width: 400px;
+}
+
+.table-row1 tr td {
+	padding: 5px;
+}
+
+.table-row2 table {
+	width: 200px;
+}
+
+.table-row2 tr td {
+	padding: 5px;
+}
+
+.box-right {
+	margin: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 30px;
+	text-align: center;
+	margin-left: 60px;
+	font-size: 26px;
+}
+
+.concen {
+	height: 600px;
+	margin: 10px;
+	margin-top: -60px;
+	overflow: scroll; 
+}
+
+.box-sidebar {
+	margin: 10px;
+	margin-left: 60px;
+	height: 600px;
+	overflow: scroll;
+}
+
+.box-sidebar table {
+	width: 250px;
+	margin: 5px 5px 5px -5px;
+	background: #DFF2FD;
+	border-radius: 5px;
+}
+
+.box-sidebar tr th {
+	background: #00CCFF;
+	text-align: center;
+}
+
+.box-sidebar tr td {
+	text-align: center;
+}
+
+.text {
+	margin-top: -100px;
+}
+
+.jumsoal {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: -50px;
+}
+
+.button {
+	margin-left: 115px;
+	margin-top: 10px;
+	background: #9F0700;
+}
+
+.footer {
+	background: rgb(253,118,5);
+}
+
+.footer p {
+	margin: 20px 20px 20px 0px;
+	color: white;
+}

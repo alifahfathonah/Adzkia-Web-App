@@ -1,0 +1,66 @@
+[02-Oct-2016 21:52:40 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[02-Oct-2016 21:52:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[02-Oct-2016 21:52:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[02-Oct-2016 21:54:29 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[02-Oct-2016 21:54:29 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[02-Oct-2016 21:54:36 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/adzkiast/public_html/tryout/siswa/include/jadwal.php on line 3
+[02-Oct-2016 21:54:36 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[02-Oct-2016 21:54:38 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[02-Oct-2016 21:54:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 01:53:27 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[04-Oct-2016 01:53:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 01:53:36 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/adzkiast/public_html/tryout/siswa/include/jadwal.php on line 3
+[04-Oct-2016 01:53:36 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 01:54:08 America/Chicago] PHP Warning:  include(include/kosakata.php?siswa=6): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[04-Oct-2016 01:54:08 America/Chicago] PHP Warning:  include(include/kosakata.php?siswa=6): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[04-Oct-2016 01:54:08 America/Chicago] PHP Warning:  include(): Failed opening 'include/kosakata.php?siswa=6' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[04-Oct-2016 01:54:18 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 01:54:18 America/Chicago] PHP Notice:  Undefined index: id in /home/adzkiast/public_html/tryout/siswa/include/kosakata.php on line 47
+[04-Oct-2016 01:54:18 America/Chicago] PHP Notice:  Undefined index: hal in /home/adzkiast/public_html/tryout/siswa/include/kosakata.php on line 48
+[04-Oct-2016 02:05:25 America/Chicago] PHP Warning:  include(include/kosakata.php?siswa=6): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[04-Oct-2016 02:05:25 America/Chicago] PHP Warning:  include(include/kosakata.php?siswa=6): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[04-Oct-2016 02:05:25 America/Chicago] PHP Warning:  include(): Failed opening 'include/kosakata.php?siswa=6' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[04-Oct-2016 04:57:19 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[04-Oct-2016 04:57:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 04:57:34 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/adzkiast/public_html/tryout/siswa/include/jadwal.php on line 3
+[04-Oct-2016 04:57:34 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 04:57:37 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 04:57:37 America/Chicago] PHP Notice:  Undefined index: alamat_ortu in /home/adzkiast/public_html/tryout/siswa/include/profil.php on line 36
+[04-Oct-2016 04:57:37 America/Chicago] PHP Notice:  Undefined index: alamat_pekerjaan in /home/adzkiast/public_html/tryout/siswa/include/profil.php on line 39
+[04-Oct-2016 04:57:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 04:58:49 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[04-Oct-2016 04:58:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 04:59:16 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/adzkiast/public_html/tryout/siswa/include/jadwal.php on line 3
+[04-Oct-2016 04:59:16 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[04-Oct-2016 10:45:59 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[04-Oct-2016 10:45:59 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[05-Oct-2016 22:46:38 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[05-Oct-2016 22:46:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[05-Oct-2016 22:46:52 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[05-Oct-2016 22:48:38 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[05-Oct-2016 22:48:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[05-Oct-2016 22:48:41 America/Chicago] PHP Warning:  include(include/video.php): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[05-Oct-2016 22:48:41 America/Chicago] PHP Warning:  include(include/video.php): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[05-Oct-2016 22:48:41 America/Chicago] PHP Warning:  include(): Failed opening 'include/video.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[05-Oct-2016 22:48:52 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[05-Oct-2016 22:48:52 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[05-Oct-2016 22:48:54 America/Chicago] PHP Warning:  include(include/video/video.php): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[05-Oct-2016 22:48:54 America/Chicago] PHP Warning:  include(include/video/video.php): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[05-Oct-2016 22:48:54 America/Chicago] PHP Warning:  include(): Failed opening 'include/video/video.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/adzkiast/public_html/tryout/siswa/index.php on line 102
+[06-Oct-2016 23:29:29 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[06-Oct-2016 23:29:29 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[06-Oct-2016 23:30:38 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[06-Oct-2016 23:30:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[06-Oct-2016 23:31:06 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 100
+[06-Oct-2016 23:31:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[06-Oct-2016 23:32:14 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 108
+[06-Oct-2016 23:32:14 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[06-Oct-2016 23:32:47 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/adzkiast/public_html/tryout/siswa/include/jadwal.php on line 3
+[06-Oct-2016 23:32:47 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[06-Oct-2016 23:32:49 America/Chicago] PHP Warning:  include(include/video/video.php): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 110
+[06-Oct-2016 23:32:49 America/Chicago] PHP Warning:  include(include/video/video.php): failed to open stream: No such file or directory in /home/adzkiast/public_html/tryout/siswa/index.php on line 110
+[06-Oct-2016 23:32:49 America/Chicago] PHP Warning:  include(): Failed opening 'include/video/video.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/adzkiast/public_html/tryout/siswa/index.php on line 110
+[06-Oct-2016 23:32:55 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 108
+[06-Oct-2016 23:32:55 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6
+[06-Oct-2016 23:44:06 America/Chicago] PHP Notice:  Undefined index: p in /home/adzkiast/public_html/tryout/siswa/index.php on line 108
+[06-Oct-2016 23:44:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/adzkiast/public_html/tryout/siswa/include/koneksi.php on line 6

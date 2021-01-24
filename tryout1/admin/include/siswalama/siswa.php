@@ -1,0 +1,177 @@
+
+<!-- DATA SISWA -->
+<div class="col-md-4 box-isi1">
+  <!-- general form elements -->
+  <div class="box box-primary">
+    <div class="box-header with-border">
+      <H2 class="box-title box-isi">DAFTAR ONLINE</H2>
+    </div><!-- /.box-header -->
+    <!-- form start -->
+    <form role="form" method="post" action="?psg=siswa/pro_siswa.php" enctype="multipart/form-data">
+
+    <?php
+        include 'include/koneksi.php';
+        $query = mysql_query("SELECT MAX(kd_reg) AS kd_reg FROM data_siswa");
+        $kd = mysql_fetch_array($query); //pecah data ke dalam array
+        $newkode = $kd['kd_reg']+1; //kode max ditambah 1 agar jadi kode baru 
+    ?>
+    <input type="hidden" name="kd" value="<?php echo $newkode; ?>">
+      <div class="box-body"> 
+        <div class="form-group">
+          <label>Nama Lengkap</label>
+          <input required type="text" name="nama" class="form-control" autocomplete="off" placeholder="Nama Lengkap">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input required type="text" name="email" class="form-control" autocomplete="off" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label>Tempat Lahir</label>
+          <input required type="text" name="ttl1" class="form-control" autocomplete="off" placeholder="Tempat Lahir"><br/>
+          <label>Tanggal Lahir</label>
+        <input required type="text" class="form-control datepicker" name="ttl" placeholder="Tgl.Lahir" id="tanggal_lahir"/>
+        </div>
+        <div class="form-group">
+          <label>Jenis Kelamin</label>
+          <div class="radio">
+            <label>
+              <input required type="radio" name="jk" id="optionsRadios1" value="pria" checked>
+              Pria &nbsp;
+            </label>
+            <label>
+              <input type="radio" name="jk" id="optionsRadios1" value="wanita">
+              Wanita &nbsp;
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Agama</label>
+          <select class="form-control" name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Budha">Budha</option>
+            <option value="Hindu">Hindu</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Anak Ke</label>
+          <input type="text" name="anak" class="form-control" autocomplete="off" placeholder="Anak Ke">
+        </div>
+        <div class="form-group">
+          <label>Asal Sekolah</label>
+          <input type="text" name="asal" class="form-control" autocomplete="off" placeholder="Asal Sekolah">
+        </div>
+        <div class="form-group">
+          <label>Alamat Rumah</label>
+          <input type="text" name="alamat" class="form-control" autocomplete="off" placeholder="Alamat Rumah">
+        </div>
+        <div class="form-group">
+          <label>Telp./Hp</label>
+          <input type="text" name="tlpn" class="form-control" autocomplete="off" placeholder="Telp./Hp">
+        </div>
+        <div class="form-group">
+          <label>Facebook</label>
+          <input type="text" name="fb" class="form-control" autocomplete="off" placeholder="Facebook">
+        </div>
+        <div class="form-group">
+          <label>PIN BB</label>
+          <input type="text" name="pin" class="form-control" autocomplete="off" placeholder="PIN BB">
+        </div>
+
+        <div class="box-header with-border">
+          <h3 class="box-title titleju">Data Orang Tuan / Wali</h3>
+        </div><!-- /.box-header -->
+          <div class="box-body">      
+            <div class="form-group">
+              <label>Nama Lengkap</label>
+              <input type="text" name="nama_ortu" class="form-control" autocomplete="off" placeholder="Nama Lengkap">
+            </div>
+            <div class="form-group">
+              <label>Alamat Rumah</label>
+              <input type="text" name="alamat_ortu" class="form-control" autocomplete="off" placeholder="Alamat Rumah">
+            </div>
+            <div class="form-group">
+              <label>Telp./Hp</label>
+              <input type="text" name="tlpn_ortu" class="form-control" autocomplete="off" placeholder="Telp./Hp">
+            </div>
+            <div class="form-group">
+              <label>Pekerjaan</label>
+              <input type="text" name="pekerjaan" class="form-control" autocomplete="off" placeholder="Pekerjaan">
+            </div>
+            <div class="form-group">
+              <label>Alamat Pekerjaan</label>
+              <input type="text" name="almpeker" class="form-control" autocomplete="off" placeholder="Alamat Pekerjaan">
+            </div>
+          </div><!-- /.box-body -->
+        <div class="form-group">
+          <label>PILIHAN PROGRAM</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="program" id="optionsRadios1" value="reguler" checked>
+              Reguler &nbsp;
+            </label>
+            <label>
+              <input type="radio" name="program" id="optionsRadios1" value="intensif">
+              Intensif &nbsp; 
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>PILIHAN KELAS</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="kelas" id="optionsRadios1" value="standar" checked>
+              Standar &nbsp;
+            </label>
+            <label>
+              <input type="radio" name="kelas" id="optionsRadios1" value="fokus">
+              Fokus &nbsp;
+            </label>
+            <label>
+              <input type="radio" name="kelas" id="optionsRadios1" value="excekutive">
+              Excekutive &nbsp;
+            </label>
+            <label>
+              <input type="radio" name="kelas" id="optionsRadios1" value="excellent">
+              Excellent &nbsp;
+            </label>
+            <label>
+              <input type="radio" name="kelas" id="optionsRadios1" value="super excekutive">
+              Super Excekutive &nbsp;
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>INFORMASI LAIN</label>
+          <div class="info">
+            <label>
+              <input type="radio" name="info_lain" id="optionsRadios1" value="teman" checked>
+              Teman &nbsp;
+            </label>
+            <label>
+              <input type="radio" name="info_lain" id="optionsRadios1" value="guru">
+              Guru &nbsp;
+            </label>
+            <label>
+              <input type="radio" name="info_lain" id="optionsRadios1" value="brosur">
+              Brosur &nbsp;
+            </label>
+          </div>
+        </div>
+          <div class="form-group">
+            <label></label>
+              <img src="include/setting/capcha_img.php?rand=<?php echo rand(); ?>" id="captchaimg" alt="captcha" style="margin-bottom:10px; "/></br>
+              <small>
+                Can't read the image? click <a href='javascript: refreshCaptcha();'>here</a> to refresh
+              </small>
+              <input type="text" name="captcha" class="form-control" autocomplete="off" placeholder="Isi Captcha">
+          </div>
+      </div>
+      <div class="box-footer">
+        <button type="reset" class="btn btn-primary" onclick=self.history.back()>Kembali</button>
+        <button type="submit" name="submit" class="btn btn-primary">Simpan</button>
+      </div>
+    </form>
+  </div>
+</div>

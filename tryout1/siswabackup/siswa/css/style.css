@@ -1,0 +1,132 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #ff0000 !important;
+	background-image: url(../img/bg_top.png) !important;
+	background-repeat: repeat-x;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+#wrapper {
+
+}
+
+#header {
+	background-color: #9F0700;
+	overflow: hidden;
+}
+
+/******************
+ TOP MENU
+ ******************/
+ .col-md-12 {
+ 	background: #9F0700;
+ 	height: 55px;
+}
+
+ .menunav {
+ 	margin-top: 10px;
+ }
+
+ .formhead {
+ 	margin-top: -35px;
+ }
+
+ .content {
+ 	background: #F6F6F6;
+ 	overflow: hidden;
+ }
+
+ .contop {
+ 	overflow: hidden;
+ 	margin: 10px;
+ 	border: 1px solid black;
+ 	border-radius: 3px;
+ }
+
+ .box-content {
+ 	margin: 10px;
+ 	padding: 5px;
+ 	border: 1px solid;
+ 	border-radius: 3px;
+ }
+
+ .table-row1 table {
+ 	width: 200px;
+ }
+
+ .table-row1 tr td {
+ 	padding: 5px;
+ }
+
+ .table-row2 table {
+ 	width: 200px;
+ }
+
+ .table-row2 tr td {
+ 	padding: 5px;
+ }
+
+ .box-right {
+ 	margin: 10px;
+ 	border: 1px solid black;
+ 	border-radius: 3px;
+ 	padding: 30px;
+ 	text-align: center;
+ 	margin-left: 60px;
+ 	font-size: 26px;
+ }
+
+ .concen {
+ 	height: 300px;
+ 	margin: 10px;
+ 	border-top: 1px solid black;
+ 	border-bottom: 1px solid black;
+ 	overflow: scroll; 
+ }
+
+ .box-sidebar {
+ 	margin: 10px;
+ 	border-top: 1px solid black;
+ 	border-bottom: 1px solid black;
+ 	margin-left: 60px;
+ 	height: 300px;
+ 	overflow: scroll;
+ }
+
+ .box-sidebar table {
+ 	width: 250px;
+ 	margin: 5px 5px 5px -5px;
+ 	background: #DFF2FD;
+ 	border-radius: 5px;
+ }
+
+  .box-sidebar tr th {
+ 	background: #00CCFF;
+ 	text-align: center;
+ }
+
+ .box-sidebar tr td {
+ 	text-align: center;
+ }
+
+ .jumsoal {
+ 	font-weight: bold;
+ 	font-size: 20px;
+ }
+
+ .button {
+ 	margin-left: 115px;
+ 	margin-top: 10px;
+ 	background: #9F0700;
+ }
+
+ .footer {
+ 	height: 50px;
+ 	background: #9F0700;
+ }
+
+ .footer p {
+ 	margin: 20px 20px 20px 0px;
+ 	color: white;
+ }
